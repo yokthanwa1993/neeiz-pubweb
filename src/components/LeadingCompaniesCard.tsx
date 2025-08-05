@@ -1,7 +1,7 @@
 import { ArrowUpRight } from 'lucide-react';
 
 const LeadingCompaniesCard = () => (
-  <article className="h-full flex flex-col group hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-white bg-gray-800/80 border border-gray-700 rounded-3xl p-6 sm:p-8 justify-between">
+  <article className="md:aspect-square flex flex-col group hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-white bg-gray-800/80 border border-gray-700 rounded-3xl p-6 sm:p-8 justify-between">
     <div className="flex items-center justify-between">
       <span className="text-base sm:text-lg font-medium text-theme">บริษัทชั้นนำ</span>
       <button className="flex h-10 w-10 sm:h-12 sm:w-12 items-center justify-center rounded-full bg-white/20 backdrop-blur hover:bg-white/30 transition-all duration-200">

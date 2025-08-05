@@ -1,7 +1,7 @@
 import { DollarSign } from 'lucide-react';
 
 const SalaryGuideCard = () => (
-  <article className="h-full flex flex-col group hover:border-theme/50 hover:shadow-lg transition-all duration-300 hover:-translate-y-2 bg-gray-800 border border-gray-700 rounded-3xl p-6 sm:p-8 justify-between">
+  <article className="md:aspect-square flex flex-col group hover:border-theme/50 hover:shadow-lg transition-all duration-300 hover:-translate-y-2 bg-gray-800 border border-gray-700 rounded-3xl p-6 sm:p-8 justify-between">
     <div className="flex items-center justify-between">
       <span className="text-base sm:text-lg font-medium text-gray-400">Salary Guide</span>
       <div className="flex items-center gap-2 text-theme">
