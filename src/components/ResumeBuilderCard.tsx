@@ -1,7 +1,7 @@
 import { ArrowUpRight, CheckCircle2 } from 'lucide-react';
 
 const ResumeBuilderCard = () => (
-  <article className="flex flex-col overflow-hidden group relative transition-all duration-300 hover:shadow-lg hover:-translate-y-2 text-white bg-gray-800/80 bg-cover border border-gray-700 rounded-3xl justify-between p-6 sm:p-8 min-h-[360px]">
+  <article className="flex flex-col overflow-hidden group relative transition-all duration-300 hover:shadow-lg hover:-translate-y-2 text-white bg-gray-800/80 bg-cover border border-gray-700 rounded-3xl justify-between p-6 sm:p-8 min-h-[360px] md:aspect-square">
     <div>
       <div className="flex items-center justify-between mb-6">
         <span className="text-base sm:text-lg font-medium text-theme">Resume Builder</span>
