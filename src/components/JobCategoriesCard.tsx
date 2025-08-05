@@ -1,5 +1,5 @@
 const JobCategoriesCard = () => (
-  <article className="flex flex-wrap content-start gap-2 sm:gap-3 hover:border-gray-600 hover:shadow-lg transition-all duration-300 hover:-translate-y-2 bg-gray-800 border border-gray-700 rounded-3xl p-6 sm:p-8 min-h-[360px]">
+  <article className="h-full flex flex-wrap content-start gap-2 sm:gap-3 hover:border-gray-600 hover:shadow-lg transition-all duration-300 hover:-translate-y-2 bg-gray-800 border border-gray-700 rounded-3xl p-6 sm:p-8">
     <div className="w-full flex items-center justify-between mb-4">
       <span className="text-base sm:text-lg font-medium text-gray-400">หมวดหมู่งานยอดนิยม</span>
     </div>
