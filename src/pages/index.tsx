@@ -10,7 +10,13 @@ import JobCategoriesCard from "@/components/JobCategoriesCard";
 const Index = () => {
   return (
     <div className="min-h-full antialiased text-gray-200">
-      <div className="fixed top-0 w-full h-screen bg-cover bg-center -z-10 opacity-30" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=3540&auto=format&fit=crop')" }}></div>
+      {/* Background Image */}
+      <div 
+        className="fixed top-0 left-0 w-full h-screen bg-cover bg-center -z-20" 
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=3540&auto=format&fit=crop')" }}
+      ></div>
+      {/* White Glassmorphism Overlay */}
+      <div className="fixed top-0 left-0 w-full h-screen bg-white/10 backdrop-blur-sm -z-10"></div>
       
       <Header />
 
